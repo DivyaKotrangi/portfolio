@@ -1,0 +1,68 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divya | Web Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  </head>
+<body><header>
+  <h1>KOTRANGI DIVYA</h1>
+  <nav>
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header><section class="hero" id="home">
+  <img src="img/photo1.jpeg" alt="Divya Profile Photo">
+  <div class="hero-text">
+    <h2>Hi, I'm <span>Divya</span><br>Aspiring Web Developer</h2>
+    <p>I create responsive and user-friendly websites using HTML, CSS and JavaScript.</p>
+    <a href="#projects" class="btn">View Projects</a>
+  </div>
+</section><section id="about" class="about">
+  <h2>About Me</h2>
+  <p>Final year Computer Science student passionate about frontend development and clean UI design.
+    I'm skilled in HTML, CSS, and JavaScript. I build responsive websites
+     that provide seamless user experiences, and I'm constantly learning new tools and frameworks
+      to stay ahead in web development.
+  </p>
+</section><section id="skills">
+  <h2>Skills</h2>
+  <div class="grid">
+    <div class="card">Python</div>
+    <div class="card">My SQL</div>
+    <div class="card">HTML5</div>
+    <div class="card">CSS3</div>
+    <div class="card">JavaScript</div>
+    <div class="card">Responsive Design</div>
+    <div class="card">Git & GitHub</div>
+    <div class="card">Basic React</div>
+  </div>
+</section><section id="projects">
+  <h2>Projects</h2>
+  <div class="grid">
+    <div class="card"><h3>Portfolio Website</h3><p>Personal responsive portfolio</p></div>
+    <div class="card"><h3>Todo App</h3><p>JavaScript based task manager</p></div>
+    <div class="card"><h3>E-Commerce Website</h3><p>Modern responsive website</p></div>
+  </div>
+</section><section id="contact">
+  <h2>Contact Me</h2>
+  
+  
+  <form onsubmit="sendMessage(event)">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea rows="5" placeholder="Message" required></textarea>
+    <button class="btn">Send Message</button>
+  </form>
+</section><footer>
+  <p>© 2026 Divya | Web Developer</p>
+</footer>
+<script src="script.js"></script></body>
+</html>

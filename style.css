@@ -1,0 +1,33 @@
+    *{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+    body{background:#0f172a;color:#e5e7eb;scroll-behavior:smooth}
+    a{text-decoration:none;color:inherit}header{position:fixed;top:0;width:100%;background:#020617;display:flex;justify-content:space-between;align-items:center;padding:15px 10%;z-index:1000}
+header h1{color:#38bdf8}
+nav a{margin-left:20px;font-weight:500}
+nav a.active,nav a:hover{color:#38bdf8}
+
+section{padding:100px 10%;min-height: 100vh;scroll-margin-top: 80px;}
+h2{text-align:center;color:#38bdf8;margin-bottom:40px;font-size:2.2rem}
+
+.hero{min-height:100vh;display:flex;align-items:center;gap:40px}
+.hero img{width:300px;height:300px;border-radius:50%;object-fit:cover;}
+.hero-text{max-width:600px}
+.hero h2{font-size:3rem;}
+.hero span{color:#38bdf8}
+.hero p{margin:20px 0}
+
+.btn{display:inline-block;padding:12px 30px;background:#38bdf8;color:#020617;border-radius:30px;font-weight:600}
+.btn:hover{background:#0ea5e9}
+
+.about p{text-align:center;max-width:800px;margin:auto}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:25px}
+.card{background:#020617;padding:25px;border-radius:15px;text-align:center;transition:.3s}
+.card:hover{transform:translateY(-8px)}
+
+form{max-width:600px;margin:auto;display:flex;flex-direction:column;gap:15px}
+input,textarea{padding:12px;border-radius:8px;border:none}
+
+footer{text-align:center;padding:20px;background:#020617}
+
+@media(max-width:768px){.hero{flex-direction:column;text-align:center}.hero img{margin-bottom:20px} header{flex-direction:column}}
+
